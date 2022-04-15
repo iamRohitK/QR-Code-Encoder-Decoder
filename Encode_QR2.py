@@ -10,4 +10,4 @@ qr.make(fit=True)   # This method with (fit=True) ensures that the entire dimens
 
 img = qr.make_image(fill_color='cyan', back_color='white')  # This method is used to convert the QRCode object into an image file. 
                                                             # It takes the fill_color and back_color optional parameters to set the foreground and background color.
-img.save('C:/Programming/Projects/QR Code/myqrcode2.png')
+img.save('C:/Programming/Projects/QR-Code-Encoder-Decoder/myqrcode2.png')

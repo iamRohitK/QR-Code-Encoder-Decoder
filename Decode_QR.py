@@ -7,7 +7,7 @@ from pyzbar.pyzbar import decode
 
 from PIL import Image
 
-img = Image.open('C:/Programming/Projects/QR Code/myqrcode1.png')
+img = Image.open('C:/Programming/Projects/QR-Code-Encoder-Decoder/myqrcode2.png')
 
 result = decode(img)
 print(result)
